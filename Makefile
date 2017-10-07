@@ -21,7 +21,6 @@ include $(INCLUDE_DIR)/package.mk
 define Package/$(PKG_NAME)
 	SECTION:=net
 	CATEGORY:=Network
-	SUBMENU:=Web Servers/Proxies
 	DEPENDS:=+libpthread
 	TITLE:=Proxy DNS Server
 endef
